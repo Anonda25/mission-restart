@@ -1,6 +1,7 @@
-function onecliked (){
-    const cliked = document.getElementById('Product')
-    console.log(cliked)
-    
+const allproducts =()=>{
+    fetch("https://fakestoreapi.com/products")
+    .then(res=> res.json())
+    .then(res=> console.log(res))
 }
 
+allproducts()
