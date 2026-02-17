@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- this is a tailwiend css cdn link  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font-icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- daigy ui link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <header class="flex justify-between px-15 py-5 bg-gray-300   ">
+        <div class="">
+            <p class="font-bold text-[#4F46E5] text-2xl "> SwiftCart </p>
+
+        </div>
+        <div class="  flex  gap-5   ">
+            <p class="">Home</p>
+            <p id="Product">Product</p>
+            <p>About</p>
+            <p>Contect</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-cart-plus"></i>
+        </div>
+
+    </header>
+    <main>
+        <!-- banner section -->
+        <section
+            class="relative bg-[url('./Assets/banner-image.png')] bg-cover bg-center bg-no-repeat min-h-[400px] md:min-h-[500px] lg:min-h-[600px] w-full flex items-center">
+
+
+            <div class="absolute inset-0 bg-black/60"></div>
+
+
+            <div class="relative z-10 container mx-auto  px-8 md:px-12 text-white">
+
+                <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                    Best Collection for You
+                </h1>
+
+                <p class="mt-4 text-sm md:text-lg lg:text-xl max-w-xl text-gray-300">
+                    Discover the latest trends in fashion, electronics, and more.
+                    Shop with confidence and style at SwiftCart.
+                </p>
+
+                <button class="mt-6 px-6 py-3 text-white bg-[#4F46E5] font-semibold 
+        rounded-lg  transition duration-300">
+                    Shop Now
+                </button>
+
+            </div>
+
+        </section>
+        <!-- why chouse us section -->
+        <section class=" bg-[#F9FAFB]">
+            <div class="text-center container mx-auto py-10 ">
+                <h1 class="sm:text-xl md:text-4xl  font-bold">Why Choose Us </h1>
+                <p class=" md:text-xl py-2 text-gray-500 ">We provide the best shopping experience with top-notch
+                    services.</p>
+            </div>
+            <div class=" container mx-auto pb-10   flex gap-4">
+                <div class="relative  p-5 bg-white rounded-md shadow-md">
+                    <div class="absolute -top-5 left-10 p-2 bg-[#EEF2FF] rounded-md shadow-xl"><i
+                            class="fa-solid fa-car text-[#4F39F6]"></i></div>
+                    <div class="p-5 ">
+                        <h1 class="pt-5 text-xl font-bold">Fast Delivery</h1>
+                        <p class="pt-4 w-3/4 ">Get your orders delivered to your
+                            doorstep quickly and efficiently.</p>
+                    </div>
+                </div>
+                <div class="relative  p-5 bg-white rounded-md shadow-md">
+                    <div class="absolute -top-5 left-10 p-2 bg-[#EEF2FF] rounded-md shadow-xl"><i
+                            class="fa-regular fa-headphones text-[#4F39F6]"></i></div>
+                    <div class="p-5 ">
+                        <h1 class="pt-5 text-xl font-bold">24/7 Support</h1>
+                        <p class="pt-4 w-3/4 ">Our support team is available
+                            around the clock to assist you.</p>
+                    </div>
+                </div>
+                <div class="relative  p-5 bg-white rounded-md shadow-md">
+                    <div class="absolute -top-5 left-10 p-2 bg-[#EEF2FF] rounded-md shadow-xl"><i
+                            class="fa-solid fa-check text-[#4F39F6]"></i></div>
+                    <div class="p-5 ">
+                        <h1 class="pt-5 text-xl font-bold">Secure Payment</h1>
+                        <p class="pt-4 w-3/4 ">Experience safe and secure
+                            transactions with our encrypted
+                            payment systems.</p>
+                    </div>
+                </div>
+                <div class="relative  p-5 bg-white rounded-md shadow-md">
+                    <div class="absolute -top-5 left-10 p-2 bg-[#EEF2FF] rounded-md shadow-xl"><i
+                            class="fa-solid fa-rotate-right text-[#4F39F6]"></i></div>
+                    <div class="p-5 ">
+                        <h1 class="pt-5 text-xl font-bold">Easy Returns</h1>
+                        <p class="pt-4 w-3/4 ">Not satisfied? Return your
+                            products easily within 30 days.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+    <footer>
+        <footer class="footer sm:footer-horizontal bg-[#1E2939] text-gray-300 p-10">
+  <nav>
+    <h6 class="footer-title">Services</h6>
+    <a class="link link-hover">Branding</a>
+    <a class="link link-hover">Design</a>
+    <a class="link link-hover">Marketing</a>
+    <a class="link link-hover">Advertisement</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Company</h6>
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Jobs</a>
+    <a class="link link-hover">Press kit</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Legal</h6>
+    <a class="link link-hover">Terms of use</a>
+    <a class="link link-hover">Privacy policy</a>
+    <a class="link link-hover">Cookie policy</a>
+  </nav>
+  <form>
+    <h6 class="footer-title">Newsletter</h6>
+    <fieldset class="w-80">
+      <label>Enter your email address</label>
+      <div class="join">
+        <input
+          type="text"
+          placeholder="username@site.com"
+          class="input input-bordered join-item" />
+        <button class="btn btn-primary join-item">Subscribe</button>
+      </div>
+    </fieldset>
+  </form>
+</footer>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
